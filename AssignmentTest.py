@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import Select
 from datetime import datetime
 import time
 
-class TestStringMethods(unittest.TestCase):
+class Assignment(unittest.TestCase):
     def setUp(self):
         f = open('config.json')
         data = json.load(f)
